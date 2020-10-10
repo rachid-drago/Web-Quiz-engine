@@ -865,84 +865,141 @@ files:
 - name: src/engine/QuizServiceImpl.java
   visible: true
   learner_created: true
-- name: src/engine/WebSecurityConfig.java
-  visible: true
-  learner_created: true
 - name: src/engine/user/User.java
   visible: true
   learner_created: true
 - name: src/engine/user/UserRepository.java
   visible: true
   learner_created: true
-- name: src/engine/user/UserController.java
-  visible: true
-  learner_created: true
-- name: src/engine/user/UserDetailsServiceImpl.java
-  visible: true
-  learner_created: true
-- name: src/engine/user/UserNotAuthorException.java
-  visible: true
-  learner_created: true
-- name: src/engine/user/QuizNotExistsException.java
-  visible: true
-  learner_created: true
-- name: src/engine/user/Beans.java
-  visible: true
-  learner_created: true
-- name: src/engine/user/AuthenticationEntryPoint.java
-  visible: true
-  learner_created: true
 feedback_link: https://hyperskill.org/projects/91/stages/508/implement
 status: Failed
 feedback:
-  message: |-
-    Wrong answer in test #1
-
-    POST /api/register should respond with status code 200, responded: 401
-
-    Response body:
-
-    Please find below the output of your program during this failed test.
-
-    ---
-
-
-      .   ____          _            __ _ _
-     /\\ / ___&#39;_ __ _ _(_)_ __  __ _ \ \ \ \
-    ( ( )\___ | &#39;_ | &#39;_| | &#39;_ \/ _` | \ \ \ \
-     \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-      &#39;  |____| .__|_| |_|_| |_\__, | / / / /
-     =========|_|==============|___/=/_/_/_/
-     :: Spring Boot ::        (v2.2.2.RELEASE)
-
-    2020-10-09 20:40:06.676  INFO 5464 --- [    Test worker] engine.WebQuizEngine                     : Starting WebQuizEngine on DESKTOP-RLVR7GP with PID 5464 (started by Rachid-pc in C:\Users\Rachid-pc\IdeaProjects\Web Quiz Engine\Web Quiz Engine\task)
-    2020-10-09 20:40:06.679  INFO 5464 --- [    Test worker] engine.WebQuizEngine                     : No active profile set, falling back to default profiles: default
-    2020-10-09 20:40:08.022  INFO 5464 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-    2020-10-09 20:40:08.145  INFO 5464 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 112ms. Found 2 JPA repository interfaces.
-    2020-10-09 20:40:08.696  INFO 5464 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean &#39;org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration&#39; of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-    2020-10-09 20:40:09.052  INFO 5464 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
-    2020-10-09 20:40:09.070  INFO 5464 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-    2020-10-09 20:40:09.071  INFO 5464 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
-    2020-10-09 20:40:09.274  INFO 5464 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-    2020-10-09 20:40:09.274  INFO 5464 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2513 ms
-    2020-10-09 20:40:09.451  INFO 5464 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-    2020-10-09 20:40:09.704  INFO 5464 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-    2020-10-09 20:40:09.717  INFO 5464 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at &#39;/h2-console&#39;. Database available at &#39;jdbc:h2:file:../quizdb&#39;
-    2020-10-09 20:40:10.114  INFO 5464 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-    2020-10-09 20:40:10.238  INFO 5464 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
-    2020-10-09 20:40:10.474  INFO 5464 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-    2020-10-09 20:40:10.650  INFO 5464 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-    2020-10-09 20:40:11.727  INFO 5464 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-    2020-10-09 20:40:11.735  INFO 5464 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit &#39;default&#39;
-    2020-10-09 20:40:12.270  WARN 5464 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-    2020-10-09 20:40:12.483  INFO 5464 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService &#39;applicationTaskExecutor&#39;
-    2020-10-09 20:40:13.124  INFO 5464 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@54fef57f, org.springframework.security.web.context.SecurityContextPersistenceFilter@127188e, org.springframework.security.web.header.HeaderWriterFilter@732256b1, org.springframework.security.web.csrf.CsrfFilter@38c8f1be, org.springframework.security.web.authentication.logout.LogoutFilter@23a70b10, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3cfe1938, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@36693cbb, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4775109e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5ed12175, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ffcfd18, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@443500d8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2fd7e658, org.springframework.security.web.session.SessionManagementFilter@31edea6, org.springframework.security.web.access.ExceptionTranslationFilter@660939da, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@106bf5e1]
-    2020-10-09 20:40:13.173  INFO 5464 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path &#39;/actuator&#39;
-    2020-10-09 20:40:13.262  INFO 5464 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path &#39;&#39;
-    2020-10-09 20:40:13.267  INFO 5464 --- [    Test worker] engine.WebQuizEngine                     : Started WebQuizEngine in 7.214 seconds (JVM running for 8.55)
-    2020-10-09 20:40:13.647  INFO 5464 --- [nio-8889-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet &#39;dispatcherServlet&#39;
-    2020-10-09 20:40:13.648  INFO 5464 --- [nio-8889-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet &#39;dispatcherServlet&#39;
-    2020-10-09 20:40:13.662  INFO 5464 --- [nio-8889-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
-    2020-10-09 20:40:13.747  WARN 5464 --- [nio-8889-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [219] milliseconds.
-  time: Fri, 09 Oct 2020 19:40:14 UTC
+  message: "Exception in test #1\n\nCannot start Spring application\nMake sure that\
+    \ no other Spring application is running at the moment.\n\norg.springframework.boot.web.server.PortInUseException:\
+    \ Port 8889 is already in use\r\n\tat org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:213)\r\
+    \n\tat org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)\r\
+    \n\tat org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)\r\
+    \n\tat org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)\r\
+    \n\tat org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)\r\
+    \n\tat org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)\r\
+    \n\tat org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)\r\
+    \n\tat org.springframework.boot.SpringApplication.run(SpringApplication.java:315)\r\
+    \n\tat org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)\r\
+    \n\tat org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)\r\
+    \n\tat engine.WebQuizEngine.main(WebQuizEngine.java:13)\n\nPlease find below the\
+    \ output of your program during this failed test.\n\n---\n\n\n  .   ____     \
+    \     _            __ _ _\n /\\\\ / ___&#39;_ __ _ _(_)_ __  __ _ \\ \\ \\ \\\n\
+    ( ( )\\___ | &#39;_ | &#39;_| | &#39;_ \\/ _` | \\ \\ \\ \\\n \\\\/  ___)| |_)|\
+    \ | | | | || (_| |  ) ) ) )\n  &#39;  |____| .__|_| |_|_| |_\\__, | / / / /\n\
+    \ =========|_|==============|___/=/_/_/_/\n :: Spring Boot ::        (v2.2.2.RELEASE)\n\
+    \n2020-10-10 15:49:12.530  INFO 8756 --- [    Test worker] engine.WebQuizEngine\
+    \                     : Starting WebQuizEngine on DESKTOP-RLVR7GP with PID 8756\
+    \ (started by Rachid-pc in C:\\Users\\Rachid-pc\\IdeaProjects\\Web Quiz Engine\\\
+    Web Quiz Engine\\task)\n2020-10-10 15:49:12.534  INFO 8756 --- [    Test worker]\
+    \ engine.WebQuizEngine                     : No active profile set, falling back\
+    \ to default profiles: default\n2020-10-10 15:49:13.807  INFO 8756 --- [    Test\
+    \ worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data\
+    \ JPA repositories in DEFAULT mode.\n2020-10-10 15:49:13.901  INFO 8756 --- [\
+    \    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data\
+    \ repository scanning in 83ms. Found 2 JPA repository interfaces.\n2020-10-10\
+    \ 15:49:14.453  INFO 8756 --- [    Test worker] trationDelegate$BeanPostProcessorChecker\
+    \ : Bean &#39;org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration&#39;\
+    \ of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration]\
+    \ is not eligible for getting processed by all BeanPostProcessors (for example:\
+    \ not eligible for auto-proxying)\n2020-10-10 15:49:14.816  INFO 8756 --- [  \
+    \  Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized\
+    \ with port(s): 8889 (http)\n2020-10-10 15:49:14.830  INFO 8756 --- [    Test\
+    \ worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]\n\
+    2020-10-10 15:49:14.830  INFO 8756 --- [    Test worker] org.apache.catalina.core.StandardEngine\
+    \  : Starting Servlet engine: [Apache Tomcat/9.0.29]\n2020-10-10 15:49:15.019\
+    \  INFO 8756 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       :\
+    \ Initializing Spring embedded WebApplicationContext\n2020-10-10 15:49:15.019\
+    \  INFO 8756 --- [    Test worker] o.s.web.context.ContextLoader            :\
+    \ Root WebApplicationContext: initialization completed in 2407 ms\n2020-10-10\
+    \ 15:49:15.217  INFO 8756 --- [    Test worker] com.zaxxer.hikari.HikariDataSource\
+    \       : HikariPool-1 - Starting...\n2020-10-10 15:49:15.523  INFO 8756 --- [\
+    \    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start\
+    \ completed.\n2020-10-10 15:49:15.534  INFO 8756 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration\
+    \    : H2 console available at &#39;/h2-console&#39;. Database available at &#39;jdbc:h2:file:../quizdb&#39;\n\
+    2020-10-10 15:49:15.912  INFO 8756 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper\
+    \  : HHH000204: Processing PersistenceUnitInfo [name: default]\n2020-10-10 15:49:16.041\
+    \  INFO 8756 --- [    Test worker] org.hibernate.Version                    :\
+    \ HHH000412: Hibernate Core {5.4.9.Final}\n2020-10-10 15:49:16.265  INFO 8756\
+    \ --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001:\
+    \ Hibernate Commons Annotations {5.1.0.Final}\n2020-10-10 15:49:16.438  INFO 8756\
+    \ --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400:\
+    \ Using dialect: org.hibernate.dialect.H2Dialect\n2020-10-10 15:49:17.443  INFO\
+    \ 8756 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490:\
+    \ Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]\n\
+    2020-10-10 15:49:17.454  INFO 8756 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean\
+    \ : Initialized JPA EntityManagerFactory for persistence unit &#39;default&#39;\n\
+    2020-10-10 15:49:17.820  WARN 8756 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration\
+    \ : spring.jpa.open-in-view is enabled by default. Therefore, database queries\
+    \ may be performed during view rendering. Explicitly configure spring.jpa.open-in-view\
+    \ to disable this warning\n2020-10-10 15:49:18.133  INFO 8756 --- [    Test worker]\
+    \ o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService &#39;applicationTaskExecutor&#39;\n\
+    2020-10-10 15:49:18.617  INFO 8756 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration\
+    \ : \n\nUsing generated security password: 28b9e00b-2428-4853-8cc9-905800dae8d9\n\
+    \n2020-10-10 15:49:18.745  INFO 8756 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain\
+    \     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2cb27ce9,\
+    \ org.springframework.security.web.context.SecurityContextPersistenceFilter@3444d6e6,\
+    \ org.springframework.security.web.header.HeaderWriterFilter@3fdb4f24, org.springframework.security.web.csrf.CsrfFilter@e7ab584,\
+    \ org.springframework.security.web.authentication.logout.LogoutFilter@257a0c34,\
+    \ org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@65e0dfed,\
+    \ org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@a4f159a,\
+    \ org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@205547f1,\
+    \ org.springframework.security.web.authentication.www.BasicAuthenticationFilter@409f3e4e,\
+    \ org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31ec414d,\
+    \ org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69225101,\
+    \ org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77a7c67f,\
+    \ org.springframework.security.web.session.SessionManagementFilter@1cd1a9d9, org.springframework.security.web.access.ExceptionTranslationFilter@5ab26a42,\
+    \ org.springframework.security.web.access.intercept.FilterSecurityInterceptor@44071b3b]\n\
+    2020-10-10 15:49:18.781  INFO 8756 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver\
+    \      : Exposing 14 endpoint(s) beneath base path &#39;/actuator&#39;\n2020-10-10\
+    \ 15:49:18.824  INFO 8756 --- [    Test worker] o.apache.catalina.core.StandardService\
+    \   : Stopping service [Tomcat]\n2020-10-10 15:49:18.837  WARN 8756 --- [    Test\
+    \ worker] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT]\
+    \ appears to have started a thread named [MVStore background writer nio:C:/Users/Rachid-pc/IdeaProjects/Web\
+    \ Quiz Engine/Web Quiz Engine/quizdb.mv.db] but has failed to stop it. This is\
+    \ very likely to create a memory leak. Stack trace of thread:\n java.base@11.0.7/java.lang.Object.wait(Native\
+    \ Method)\n app//org.h2.mvstore.MVStore$BackgroundWriterThread.run(MVStore.java:3283)\n\
+    2020-10-10 15:49:18.838  WARN 8756 --- [    Test worker] o.a.c.loader.WebappClassLoaderBase\
+    \       : The web application [ROOT] appears to have started a thread named [HikariPool-1\
+    \ housekeeper] but has failed to stop it. This is very likely to create a memory\
+    \ leak. Stack trace of thread:\n java.base@11.0.7/jdk.internal.misc.Unsafe.park(Native\
+    \ Method)\n java.base@11.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)\n\
+    \ java.base@11.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)\n\
+    \ java.base@11.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)\n\
+    \ java.base@11.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)\n\
+    \ java.base@11.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)\n\
+    \ java.base@11.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)\n\
+    \ java.base@11.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\
+    \ java.base@11.0.7/java.lang.Thread.run(Thread.java:834)\n2020-10-10 15:49:18.840\
+    \  WARN 8756 --- [    Test worker] o.a.c.loader.WebappClassLoaderBase       :\
+    \ The web application [ROOT] appears to have started a thread named [HikariPool-1\
+    \ connection adder] but has failed to stop it. This is very likely to create a\
+    \ memory leak. Stack trace of thread:\n java.base@11.0.7/jdk.internal.misc.Unsafe.park(Native\
+    \ Method)\n java.base@11.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)\n\
+    \ java.base@11.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)\n\
+    \ java.base@11.0.7/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:458)\n\
+    \ java.base@11.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1053)\n\
+    \ java.base@11.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)\n\
+    \ java.base@11.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\
+    \ java.base@11.0.7/java.lang.Thread.run(Thread.java:834)\n2020-10-10 15:49:18.848\
+    \  INFO 8756 --- [    Test worker] ConditionEvaluationReportLoggingListener :\
+    \ \n\nError starting ApplicationContext. To display the conditions report re-run\
+    \ your application with &#39;debug&#39; enabled.\n2020-10-10 15:49:18.851 ERROR\
+    \ 8756 --- [    Test worker] o.s.b.d.LoggingFailureAnalysisReporter   : \n\n***************************\n\
+    APPLICATION FAILED TO START\n***************************\n\nDescription:\n\nWeb\
+    \ server failed to start. Port 8889 was already in use.\n\nAction:\n\nIdentify\
+    \ and stop the process that&#39;s listening on port 8889 or configure this application\
+    \ to listen on another port.\n\n2020-10-10 15:49:18.856  INFO 8756 --- [    Test\
+    \ worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService\
+    \ &#39;applicationTaskExecutor&#39;\n2020-10-10 15:49:18.857  INFO 8756 --- [\
+    \    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory\
+    \ for persistence unit &#39;default&#39;\n2020-10-10 15:49:18.860  INFO 8756 ---\
+    \ [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 -\
+    \ Shutdown initiated...\n2020-10-10 15:49:18.875  INFO 8756 --- [    Test worker]\
+    \ com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed."
+  time: Sat, 10 Oct 2020 14:49:19 UTC
 record: -1

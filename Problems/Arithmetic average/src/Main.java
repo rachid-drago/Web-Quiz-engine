@@ -12,7 +12,7 @@ class Main {
         for (; b <= a; b++) {
             if (b % 3 == 0) {
                 count++;
-                sum+= b;
+                sum += b;
 
             }
         }
