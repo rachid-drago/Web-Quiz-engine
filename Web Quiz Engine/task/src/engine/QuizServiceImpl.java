@@ -1,5 +1,8 @@
 package engine;
 
+import engine.user.User;
+import engine.user.UserNotAuthorException;
+import engine.validation.QuizNotExistsException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
@@ -33,6 +36,17 @@ public class QuizServiceImpl implements QuizService {
         if (quiz.getTitle() == "" || quiz.getText() == "" || quiz.getOptions().isEmpty() )  throw new ResponseStatusException(
                 HttpStatus.BAD_REQUEST, "Actor Not Found");
         return quizRepository.save(quiz);
+    }
+    @Override
+    public void delete(long id, User user) {
+        Quiz quiz = quizRepository.findById(id)
+                .orElseThrow(() -> new QuizNotExistsException(id));
+        User temp = quiz.getUser();
+        //System.out.println(quiz.getTitle() + "here ========");
+        if (!temp.equals(user)) {
+            throw new UserNotAuthorException(user.getEmail());
+        }
+        quizRepository.deleteById(id);
     }
 
     @Override

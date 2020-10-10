@@ -1,5 +1,7 @@
 package engine;
 
+import engine.user.User;
+
 import java.util.List;
 
 public interface QuizService {
@@ -42,4 +44,6 @@ public interface QuizService {
     List<Quiz> getQuizByNameLike(String searchString);
 
     boolean correctAnswer(List<Integer> answer, Long id);
+
+    public void delete(long id, User user);
 }
