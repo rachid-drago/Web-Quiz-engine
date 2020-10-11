@@ -793,6 +793,104 @@ files:
         }
     }
   learner_created: false
+- name: src/engine/user/UserNotAuthorException.java
+  visible: true
+  learner_created: true
+- name: src/engine/validation/QuizNotExistsException.java
+  visible: true
+  learner_created: true
+- name: src/engine/user/User.java
+  visible: true
+  learner_created: true
+- name: src/engine/AnswerObject.java
+  visible: true
+  learner_created: true
+- name: src/engine/IdNotFoundException.java
+  visible: true
+  text: |
+    package engine;
+
+    import org.springframework.http.HttpStatus;
+    import org.springframework.web.bind.annotation.ResponseStatus;
+
+    @ResponseStatus(code = HttpStatus.NOT_FOUND, reason = "id not found")
+    public class IdNotFoundException extends RuntimeException {
+        public IdNotFoundException(String message) {
+            super(message);
+        }
+
+    }
+  learner_created: true
+- name: src/engine/user/UserService.java
+  visible: true
+  learner_created: true
+- name: src/engine/user/QuizException.java
+  visible: true
+  learner_created: true
+- name: src/engine/user/UserController.java
+  visible: true
+  learner_created: true
+- name: src/engine/model/Completed.java
+  visible: true
+  learner_created: true
+- name: src/engine/repository/CompletedRepository.java
+  visible: true
+  learner_created: true
+- name: src/engine/model/Feedback.java
+  visible: true
+  learner_created: true
+- name: src/engine/model/Answer.java
+  visible: true
+  learner_created: true
+- name: src/engine/model/Option.java
+  visible: true
+  learner_created: true
+- name: src/engine/controller/QuizController.java
+  visible: true
+  learner_created: true
+- name: src/engine/entity/Quiz.java
+  visible: true
+  learner_created: true
+- name: src/engine/entity/CompletedEntity.java
+  visible: true
+  learner_created: true
+- name: src/engine/view/Views.java
+  visible: true
+  learner_created: true
+- name: src/engine/dto/ResponseDto.java
+  visible: true
+  learner_created: true
+- name: src/engine/dto/SolveDto.java
+  visible: true
+  learner_created: true
+- name: src/engine/exception/NotFoundException.java
+  visible: true
+  learner_created: true
+- name: src/engine/repository/QuizRepository.java
+  visible: true
+  learner_created: true
+- name: src/engine/repository/UserRepository.java
+  visible: true
+  learner_created: true
+- name: src/engine/service/QuizService.java
+  visible: true
+  learner_created: true
+- name: src/engine/service/UserService.java
+  visible: true
+  learner_created: true
+- name: src/engine/entity/User.java
+  visible: true
+  learner_created: true
+- name: src/engine/controller/UserController.java
+  visible: true
+  learner_created: true
+- name: src/engine/config/SecurityConfig.java
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/91/stages/509/implement
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/91/stages/509/implement">JetBrains
+    Academy</a>
+  time: Sun, 11 Oct 2020 21:24:55 UTC
 record: -1

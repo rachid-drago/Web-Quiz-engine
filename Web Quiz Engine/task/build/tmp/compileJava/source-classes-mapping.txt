@@ -1,36 +1,39 @@
+engine/exception/NotFoundException.java
+ engine.exception.NotFoundException
+engine/repository/CompletedRepository.java
+ engine.repository.CompletedRepository
 engine/validation/QuizNotExistsException.java
  engine.validation.QuizNotExistsException
-engine/user/UserRepository.java
- engine.user.UserRepository
-engine/user/QuizException.java
- engine.user.QuizException
-engine/WebQuizEngine.java
- engine.WebQuizEngine
-engine/user/UserService.java
- engine.user.UserService
-engine/IdNotFoundException.java
- engine.IdNotFoundException
-engine/Quiz.java
- engine.Quiz
-engine/config/SecurityConfiguration.java
- engine.config.SecurityConfiguration
-engine/Quizanwser.java
- engine.Quizanwser
-engine/QuizService.java
- engine.QuizService
-engine/user/UserNotAuthorException.java
- engine.user.UserNotAuthorException
-engine/user/UserController.java
- engine.user.UserController
-engine/QuizRepository.java
- engine.QuizRepository
-engine/QuizController.java
- engine.QuizController
 engine/AnswerObject.java
  engine.AnswerObject
-engine/user/User.java
- engine.user.User
-engine/QuizServiceImpl.java
- engine.QuizServiceImpl
-engine/config/Beans.java
- engine.config.Beans
+engine/service/QuizService.java
+ engine.service.QuizService
+engine/dto/SolveDto.java
+ engine.dto.SolveDto
+engine/WebQuizEngine.java
+ engine.WebQuizEngine
+engine/view/Views.java
+ engine.view.Views
+ engine.view.Views$Public
+engine/repository/QuizRepository.java
+ engine.repository.QuizRepository
+engine/IdNotFoundException.java
+ engine.IdNotFoundException
+engine/dto/ResponseDto.java
+ engine.dto.ResponseDto
+engine/entity/CompletedEntity.java
+ engine.entity.CompletedEntity
+engine/entity/Quiz.java
+ engine.entity.Quiz
+engine/config/SecurityConfig.java
+ engine.config.SecurityConfig
+engine/repository/UserRepository.java
+ engine.repository.UserRepository
+engine/entity/User.java
+ engine.entity.User
+engine/controller/QuizController.java
+ engine.controller.QuizController
+engine/service/UserService.java
+ engine.service.UserService
+engine/controller/UserController.java
+ engine.controller.UserController

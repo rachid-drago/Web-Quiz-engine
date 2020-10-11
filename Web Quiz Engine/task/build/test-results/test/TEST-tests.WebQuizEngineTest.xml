@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.WebQuizEngineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-10T18:36:59" hostname="DESKTOP-RLVR7GP" time="27.465">
+<testsuite name="tests.WebQuizEngineTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-11T21:24:23" hostname="DESKTOP-RLVR7GP" time="32.012">
   <properties/>
-  <testcase name="start" classname="tests.WebQuizEngineTest" time="27.465"/>
+  <testcase name="start" classname="tests.WebQuizEngineTest" time="32.012"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 
@@ -13,53 +13,48 @@ Start test 1?[0m
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.2.RELEASE)
 
-2020-10-10 19:37:00.138  INFO 2544 --- [    Test worker] engine.WebQuizEngine                     : Starting WebQuizEngine on DESKTOP-RLVR7GP with PID 2544 (started by Rachid-pc in C:\Users\Rachid-pc\IdeaProjects\Web Quiz Engine\Web Quiz Engine\task)
-2020-10-10 19:37:00.142  INFO 2544 --- [    Test worker] engine.WebQuizEngine                     : No active profile set, falling back to default profiles: default
-2020-10-10 19:37:01.308  INFO 2544 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2020-10-10 19:37:01.403  INFO 2544 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86ms. Found 2 JPA repository interfaces.
-2020-10-10 19:37:01.856  INFO 2544 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-10-10 19:37:02.178  INFO 2544 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
-2020-10-10 19:37:02.192  INFO 2544 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-10-10 19:37:02.192  INFO 2544 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
-2020-10-10 19:37:02.370  INFO 2544 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-10-10 19:37:02.370  INFO 2544 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2169 ms
-2020-10-10 19:37:02.529  INFO 2544 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-10-10 19:37:02.758  INFO 2544 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-10-10 19:37:02.768  INFO 2544 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../quizdb'
-2020-10-10 19:37:03.146  INFO 2544 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-10-10 19:37:03.268  INFO 2544 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
-2020-10-10 19:37:03.472  INFO 2544 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-10-10 19:37:03.640  INFO 2544 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2020-10-10 19:37:04.622  INFO 2544 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-10-10 19:37:04.630  INFO 2544 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-10-10 19:37:05.170  WARN 2544 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-10-10 19:37:05.381  INFO 2544 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-10 19:37:05.876  INFO 2544 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@73e1129b, org.springframework.security.web.context.SecurityContextPersistenceFilter@a5519eb, org.springframework.security.web.header.HeaderWriterFilter@58e447f3, org.springframework.security.web.authentication.logout.LogoutFilter@16db41a5, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1935d26f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d199f46, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@453f9a3b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@566530c, org.springframework.security.web.access.ExceptionTranslationFilter@1f6d707, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2bf88cb1]
-2020-10-10 19:37:05.913  INFO 2544 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2020-10-10 19:37:05.987  INFO 2544 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
-2020-10-10 19:37:05.991  INFO 2544 --- [    Test worker] engine.WebQuizEngine                     : Started WebQuizEngine in 6.335 seconds (JVM running for 7.505)
-2020-10-10 19:37:06.421  INFO 2544 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-10-10 19:37:06.423  INFO 2544 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-10-10 19:37:06.437  INFO 2544 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-10-11 22:24:24.276  INFO 5088 --- [    Test worker] engine.WebQuizEngine                     : Starting WebQuizEngine on DESKTOP-RLVR7GP with PID 5088 (started by Rachid-pc in C:\Users\Rachid-pc\IdeaProjects\Web Quiz Engine\Web Quiz Engine\task)
+2020-10-11 22:24:24.282  INFO 5088 --- [    Test worker] engine.WebQuizEngine                     : No active profile set, falling back to default profiles: default
+2020-10-11 22:24:25.538  INFO 5088 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-10-11 22:24:25.645  INFO 5088 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95ms. Found 3 JPA repository interfaces.
+2020-10-11 22:24:26.177  INFO 5088 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-11 22:24:26.513  INFO 5088 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2020-10-11 22:24:26.527  INFO 5088 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-11 22:24:26.527  INFO 5088 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-10-11 22:24:26.718  INFO 5088 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-11 22:24:26.718  INFO 5088 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2371 ms
+2020-10-11 22:24:26.876  INFO 5088 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-11 22:24:27.178  INFO 5088 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-11 22:24:27.187  INFO 5088 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../quizdb'
+2020-10-11 22:24:27.552  INFO 5088 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-11 22:24:27.663  INFO 5088 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-10-11 22:24:27.968  INFO 5088 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-11 22:24:28.173  INFO 5088 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-10-11 22:24:29.322  INFO 5088 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-11 22:24:29.329  INFO 5088 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-11 22:24:29.403  WARN 5088 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-11 22:24:30.082  INFO 5088 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@21a22b36, org.springframework.security.web.context.SecurityContextPersistenceFilter@523e919, org.springframework.security.web.header.HeaderWriterFilter@42dd5213, org.springframework.security.web.authentication.logout.LogoutFilter@5e66983, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7f12667a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6bf3ec05, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d4dd418, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76fc99d5, org.springframework.security.web.session.SessionManagementFilter@30a54eb0, org.springframework.security.web.access.ExceptionTranslationFilter@51340728, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@26bcb532]
+2020-10-11 22:24:30.243  INFO 5088 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-11 22:24:30.646  INFO 5088 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-10-11 22:24:30.714  INFO 5088 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+2020-10-11 22:24:30.717  INFO 5088 --- [    Test worker] engine.WebQuizEngine                     : Started WebQuizEngine in 7.033 seconds (JVM running for 8.225)
+2020-10-11 22:24:31.189  INFO 5088 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-11 22:24:31.190  INFO 5088 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-11 22:24:31.201  INFO 5088 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
 ?[1;31m
 Start test 2?[0m
 ?[1;31m
 Start test 3?[0m
-2020-10-10 19:37:07.100  WARN 2544 --- [nio-8889-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.Void> engine.user.UserController.register(engine.user.User) throws engine.user.QuizException: [Field error in object 'user' on field 'email': rejected value [google.com]; codes [Email.user.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@2e4ef67,^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$]; default message [email must have a valid format]] ]
 ?[1;31m
 Start test 4?[0m
-2020-10-10 19:37:07.171  WARN 2544 --- [nio-8889-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.Void> engine.user.UserController.register(engine.user.User) throws engine.user.QuizException: [Field error in object 'user' on field 'email': rejected value [well@googlecom]; codes [Email.user.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@2e4ef67,^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$]; default message [email must have a valid format]] ]
 ?[1;31m
 Start test 5?[0m
 ?[1;31m
 Start test 6?[0m
-2020-10-10 19:37:07.226  WARN 2544 --- [nio-8889-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.Void> engine.user.UserController.register(engine.user.User) throws engine.user.QuizException: [Field error in object 'user' on field 'password': rejected value [1234]; codes [Size.user.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.password,password]; arguments []; default message [password],2147483647,5]; default message [size must be between 5 and 2147483647]] ]
 ?[1;31m
 Start test 7?[0m
-2020-10-10 19:37:07.238  WARN 2544 --- [nio-8889-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.Void> engine.user.UserController.register(engine.user.User) throws engine.user.QuizException: [Field error in object 'user' on field 'password': rejected value [123]; codes [Size.user.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.password,password]; arguments []; default message [password],2147483647,5]; default message [size must be between 5 and 2147483647]] ]
 ?[1;31m
 Start test 8?[0m
-2020-10-10 19:37:07.612  WARN 2544 --- [nio-8889-exec-8] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [169] milliseconds.
 ?[1;31m
 Start test 9?[0m
 ?[1;31m
@@ -108,62 +103,38 @@ Start test 30?[0m
 Start test 31?[0m
 ?[1;31m
 Start test 32?[0m
-[2]
-[0]
-false
-false
 ?[1;31m
 Start test 33?[0m
-[2]
-[1]
-false
-false
 ?[1;31m
 Start test 34?[0m
-[2]
-[2]
-false
-true
 ?[1;31m
 Start test 35?[0m
-[2]
-[3]
-false
-false
 ?[1;31m
 Start test 36?[0m
-[1]
-[0]
-false
-false
 ?[1;31m
 Start test 37?[0m
-[1]
-[1]
-false
-true
 ?[1;31m
 Start test 38?[0m
-[1]
-[2]
-false
-false
 ?[1;31m
 Start test 39?[0m
-[1]
-[3]
-false
-false
 ?[1;31m
 Start test 40?[0m
 ?[1;31m
 Start test 41?[0m
 ?[1;31m
 Start test 42?[0m
-2020-10-10 19:37:10.515  INFO 2544 --- [       Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-10-10 19:37:10.516  INFO 2544 --- [       Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2020-10-10 19:37:10.519  INFO 2544 --- [       Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2020-10-10 19:37:10.594  INFO 2544 --- [       Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+?[1;31m
+Start test 43?[0m
+?[1;31m
+Start test 44?[0m
+?[1;31m
+Start test 45?[0m
+?[1;31m
+Start test 46?[0m
+2020-10-11 22:24:35.210  INFO 5088 --- [       Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-11 22:24:35.211  INFO 5088 --- [       Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-11 22:24:35.214  INFO 5088 --- [       Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-10-11 22:24:35.300  INFO 5088 --- [       Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -173,185 +144,102 @@ Start test 42?[0m
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.2.RELEASE)
 
-2020-10-10 19:37:10.658  INFO 2544 --- [    Test worker] engine.WebQuizEngine                     : Starting WebQuizEngine on DESKTOP-RLVR7GP with PID 2544 (started by Rachid-pc in C:\Users\Rachid-pc\IdeaProjects\Web Quiz Engine\Web Quiz Engine\task)
-2020-10-10 19:37:10.658  INFO 2544 --- [    Test worker] engine.WebQuizEngine                     : No active profile set, falling back to default profiles: default
-2020-10-10 19:37:10.794  INFO 2544 --- [       Thread-6] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2020-10-10 19:37:10.800  INFO 2544 --- [       Thread-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2020-10-10 19:37:11.110  INFO 2544 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2020-10-10 19:37:11.128  INFO 2544 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 2 JPA repository interfaces.
-2020-10-10 19:37:11.216  INFO 2544 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-10-10 19:37:11.262  WARN 2544 --- [    Test worker] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
-2020-10-10 19:37:11.269  INFO 2544 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
-2020-10-10 19:37:11.270  INFO 2544 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-10-10 19:37:11.271  INFO 2544 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
-2020-10-10 19:37:11.317  INFO 2544 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-10-10 19:37:11.317  INFO 2544 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 655 ms
-2020-10-10 19:37:11.391  INFO 2544 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2020-10-10 19:37:11.408  INFO 2544 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2020-10-10 19:37:11.408  INFO 2544 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../quizdb'
-2020-10-10 19:37:11.547  INFO 2544 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-10-10 19:37:11.557  INFO 2544 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2020-10-10 19:37:11.680  INFO 2544 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-10-10 19:37:11.680  INFO 2544 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-10-10 19:37:11.807  WARN 2544 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-10-10 19:37:11.903  INFO 2544 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-10 19:37:12.083  INFO 2544 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@185442f6, org.springframework.security.web.context.SecurityContextPersistenceFilter@716eb1f, org.springframework.security.web.header.HeaderWriterFilter@674c8fff, org.springframework.security.web.authentication.logout.LogoutFilter@4c9d7f4d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@68870089, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1326d670, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7fd366af, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5fc57d68, org.springframework.security.web.access.ExceptionTranslationFilter@65412b10, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3cda0fc2]
-2020-10-10 19:37:12.108  INFO 2544 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2020-10-10 19:37:12.141  INFO 2544 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
-2020-10-10 19:37:12.142  INFO 2544 --- [    Test worker] engine.WebQuizEngine                     : Started WebQuizEngine in 1.524 seconds (JVM running for 13.656)
-?[1;31m
-Start test 43?[0m
-2020-10-10 19:37:12.152  INFO 2544 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-10-10 19:37:12.153  INFO 2544 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-10-10 19:37:12.158  INFO 2544 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
-?[1;31m
-Start test 44?[0m
-?[1;31m
-Start test 45?[0m
-[2]
-[2]
-false
-true
-?[1;31m
-Start test 46?[0m
-[2]
-[3]
-false
-false
+2020-10-11 22:24:35.340  INFO 5088 --- [    Test worker] engine.WebQuizEngine                     : Starting WebQuizEngine on DESKTOP-RLVR7GP with PID 5088 (started by Rachid-pc in C:\Users\Rachid-pc\IdeaProjects\Web Quiz Engine\Web Quiz Engine\task)
+2020-10-11 22:24:35.341  INFO 5088 --- [    Test worker] engine.WebQuizEngine                     : No active profile set, falling back to default profiles: default
+2020-10-11 22:24:35.504  INFO 5088 --- [       Thread-6] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-11 22:24:35.511  INFO 5088 --- [       Thread-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-10-11 22:24:35.737  INFO 5088 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-10-11 22:24:35.759  INFO 5088 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21ms. Found 3 JPA repository interfaces.
+2020-10-11 22:24:35.830  INFO 5088 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-11 22:24:35.871  WARN 5088 --- [    Test worker] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-10-11 22:24:35.877  INFO 5088 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2020-10-11 22:24:35.877  INFO 5088 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-11 22:24:35.878  INFO 5088 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-10-11 22:24:35.922  INFO 5088 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-11 22:24:35.923  INFO 5088 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 578 ms
+2020-10-11 22:24:35.985  INFO 5088 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-10-11 22:24:35.996  INFO 5088 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-10-11 22:24:35.996  INFO 5088 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../quizdb'
+2020-10-11 22:24:36.115  INFO 5088 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-11 22:24:36.124  INFO 5088 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-10-11 22:24:36.250  INFO 5088 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-11 22:24:36.250  INFO 5088 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-11 22:24:36.285  WARN 5088 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-11 22:24:36.385  INFO 5088 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@24647cd2, org.springframework.security.web.context.SecurityContextPersistenceFilter@6cd6fa4, org.springframework.security.web.header.HeaderWriterFilter@416182d7, org.springframework.security.web.authentication.logout.LogoutFilter@38244cc7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7b61d974, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7f678c23, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32ddce22, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@212e222b, org.springframework.security.web.session.SessionManagementFilter@6851f248, org.springframework.security.web.access.ExceptionTranslationFilter@5bd450fe, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7a27fab6]
+2020-10-11 22:24:36.443  INFO 5088 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-11 22:24:36.565  INFO 5088 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-10-11 22:24:36.593  INFO 5088 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+2020-10-11 22:24:36.594  INFO 5088 --- [    Test worker] engine.WebQuizEngine                     : Started WebQuizEngine in 1.283 seconds (JVM running for 14.102)
 ?[1;31m
 Start test 47?[0m
-[1]
-[0]
-false
-false
+2020-10-11 22:24:36.602  INFO 5088 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-11 22:24:36.602  INFO 5088 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-11 22:24:36.608  INFO 5088 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
 ?[1;31m
 Start test 48?[0m
-[1]
-[1]
-false
-true
 ?[1;31m
 Start test 49?[0m
-2020-10-10 19:37:12.916  WARN 2544 --- [nio-8889-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
- at [Source: (PushbackInputStream); line: 4, column: 4]]
 ?[1;31m
 Start test 50?[0m
-2020-10-10 19:37:13.005  WARN 2544 --- [nio-8889-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
- at [Source: (PushbackInputStream); line: 5, column: 4]]
 ?[1;31m
 Start test 51?[0m
-2020-10-10 19:37:13.088  WARN 2544 --- [nio-8889-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
- at [Source: (PushbackInputStream); line: 4, column: 4]]
 ?[1;31m
 Start test 52?[0m
-2020-10-10 19:37:13.169  WARN 2544 --- [io-8889-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
- at [Source: (PushbackInputStream); line: 5, column: 4]]
 ?[1;31m
 Start test 53?[0m
 ?[1;31m
 Start test 54?[0m
-2020-10-10 19:37:13.340  WARN 2544 --- [nio-8889-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
- at [Source: (PushbackInputStream); line: 5, column: 4]]
 ?[1;31m
 Start test 55?[0m
-2020-10-10 19:37:13.420  WARN 2544 --- [nio-8889-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
- at [Source: (PushbackInputStream); line: 5, column: 4]]
 ?[1;31m
 Start test 56?[0m
 ?[1;31m
 Start test 57?[0m
+2020-10-11 22:24:37.665  WARN 5088 --- [nio-8889-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 4, column: 4]]
 ?[1;31m
 Start test 58?[0m
+2020-10-11 22:24:37.760  WARN 5088 --- [nio-8889-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 5, column: 4]]
 ?[1;31m
 Start test 59?[0m
-[0, 1]
-[]
-false
-false
+2020-10-11 22:24:37.844  WARN 5088 --- [nio-8889-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 4, column: 4]]
 ?[1;31m
 Start test 60?[0m
-[0, 1]
-[0]
-false
-false
+2020-10-11 22:24:37.946  WARN 5088 --- [nio-8889-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 5, column: 4]]
 ?[1;31m
 Start test 61?[0m
-[0, 1]
-[1]
-false
-false
+2020-10-11 22:24:38.072  WARN 5088 --- [nio-8889-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public engine.entity.Quiz engine.controller.QuizController.addQuiz(engine.entity.Quiz): [Field error in object 'quiz' on field 'options': rejected value [null]; codes [NotNull.quiz.options,NotNull.options,NotNull.java.util.List,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [quiz.options,options]; arguments []; default message [options]]; default message [must not be null]] ]
 ?[1;31m
 Start test 62?[0m
-[0, 1]
-[2]
-false
-false
+2020-10-11 22:24:38.171  WARN 5088 --- [nio-8889-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 5, column: 4]]
 ?[1;31m
 Start test 63?[0m
-[0, 1]
-[3]
-false
-false
+2020-10-11 22:24:38.255  WARN 5088 --- [nio-8889-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 5, column: 4]]
 ?[1;31m
 Start test 64?[0m
-[0, 1]
-[0, 1]
-false
-true
 ?[1;31m
 Start test 65?[0m
-[0, 1]
-[0, 2]
-false
-false
 ?[1;31m
 Start test 66?[0m
-[0, 1]
-[0, 3]
-false
-false
 ?[1;31m
 Start test 67?[0m
-[0, 1]
-[1, 2]
-false
-false
 ?[1;31m
 Start test 68?[0m
-[0, 1]
-[1, 3]
-false
-false
 ?[1;31m
 Start test 69?[0m
-[0, 1]
-[2, 3]
-false
-false
 ?[1;31m
 Start test 70?[0m
-[0, 1]
-[0, 1, 2]
-false
-false
 ?[1;31m
 Start test 71?[0m
-[0, 1]
-[0, 1, 3]
-false
-false
 ?[1;31m
 Start test 72?[0m
-[0, 1]
-[1, 2, 3]
-false
-false
 ?[1;31m
 Start test 73?[0m
-[0, 1]
-[0, 1, 2, 3]
-false
-false
 ?[1;31m
 Start test 74?[0m
 ?[1;31m
@@ -360,94 +248,34 @@ Start test 75?[0m
 Start test 76?[0m
 ?[1;31m
 Start test 77?[0m
-[1, 3]
-[]
-false
-false
 ?[1;31m
 Start test 78?[0m
-[1, 3]
-[0]
-false
-false
 ?[1;31m
 Start test 79?[0m
-[1, 3]
-[1]
-false
-false
 ?[1;31m
 Start test 80?[0m
-[1, 3]
-[2]
-false
-false
 ?[1;31m
 Start test 81?[0m
-[1, 3]
-[3]
-false
-false
 ?[1;31m
 Start test 82?[0m
-[1, 3]
-[0, 1]
-false
-false
 ?[1;31m
 Start test 83?[0m
-[1, 3]
-[0, 2]
-false
-false
 ?[1;31m
 Start test 84?[0m
-[1, 3]
-[0, 3]
-false
-false
 ?[1;31m
 Start test 85?[0m
-[1, 3]
-[1, 2]
-false
-false
 ?[1;31m
 Start test 86?[0m
-[1, 3]
-[1, 3]
-false
-true
 ?[1;31m
 Start test 87?[0m
-[1, 3]
-[2, 3]
-false
-false
 ?[1;31m
 Start test 88?[0m
-[1, 3]
-[0, 1, 2]
-false
-false
 ?[1;31m
 Start test 89?[0m
-[1, 3]
-[0, 1, 3]
-false
-false
 ?[1;31m
 Start test 90?[0m
-[1, 3]
-[1, 2, 3]
-false
-false
 ?[1;31m
 Start test 91?[0m
-[1, 3]
-[0, 1, 2, 3]
-false
-false
 ?[1;31m
 Start test 92?[0m
 ?[1;31m
@@ -456,94 +284,34 @@ Start test 93?[0m
 Start test 94?[0m
 ?[1;31m
 Start test 95?[0m
-[]
-[]
-false
-true
 ?[1;31m
 Start test 96?[0m
-[]
-[0]
-false
-false
 ?[1;31m
 Start test 97?[0m
-[]
-[1]
-false
-false
 ?[1;31m
 Start test 98?[0m
-[]
-[2]
-false
-false
 ?[1;31m
 Start test 99?[0m
-[]
-[3]
-false
-false
 ?[1;31m
 Start test 100?[0m
-[]
-[0, 1]
-false
-false
 ?[1;31m
 Start test 101?[0m
-[]
-[0, 2]
-false
-false
 ?[1;31m
 Start test 102?[0m
-[]
-[0, 3]
-false
-false
 ?[1;31m
 Start test 103?[0m
-[]
-[1, 2]
-false
-false
 ?[1;31m
 Start test 104?[0m
-[]
-[1, 3]
-false
-false
 ?[1;31m
 Start test 105?[0m
-[]
-[2, 3]
-false
-false
 ?[1;31m
 Start test 106?[0m
-[]
-[0, 1, 2]
-false
-false
 ?[1;31m
 Start test 107?[0m
-[]
-[0, 1, 3]
-false
-false
 ?[1;31m
 Start test 108?[0m
-[]
-[1, 2, 3]
-false
-false
 ?[1;31m
 Start test 109?[0m
-[]
-[0, 1, 2, 3]
-false
-false
 ?[1;31m
 Start test 110?[0m
 ?[1;31m
@@ -552,94 +320,34 @@ Start test 111?[0m
 Start test 112?[0m
 ?[1;31m
 Start test 113?[0m
-[]
-[]
-false
-true
 ?[1;31m
 Start test 114?[0m
-[]
-[0]
-false
-false
 ?[1;31m
 Start test 115?[0m
-[]
-[1]
-false
-false
 ?[1;31m
 Start test 116?[0m
-[]
-[2]
-false
-false
 ?[1;31m
 Start test 117?[0m
-[]
-[3]
-false
-false
 ?[1;31m
 Start test 118?[0m
-[]
-[0, 1]
-false
-false
 ?[1;31m
 Start test 119?[0m
-[]
-[0, 2]
-false
-false
 ?[1;31m
 Start test 120?[0m
-[]
-[0, 3]
-false
-false
 ?[1;31m
 Start test 121?[0m
-[]
-[1, 2]
-false
-false
 ?[1;31m
 Start test 122?[0m
-[]
-[1, 3]
-false
-false
 ?[1;31m
 Start test 123?[0m
-[]
-[2, 3]
-false
-false
 ?[1;31m
 Start test 124?[0m
-[]
-[0, 1, 2]
-false
-false
 ?[1;31m
 Start test 125?[0m
-[]
-[0, 1, 3]
-false
-false
 ?[1;31m
 Start test 126?[0m
-[]
-[1, 2, 3]
-false
-false
 ?[1;31m
 Start test 127?[0m
-[]
-[0, 1, 2, 3]
-false
-false
 ?[1;31m
 Start test 128?[0m
 ?[1;31m
@@ -648,102 +356,58 @@ Start test 129?[0m
 Start test 130?[0m
 ?[1;31m
 Start test 131?[0m
-[0, 1, 3]
-[]
-false
-false
 ?[1;31m
 Start test 132?[0m
-[0, 1, 3]
-[0]
-false
-false
 ?[1;31m
 Start test 133?[0m
-[0, 1, 3]
-[1]
-false
-false
 ?[1;31m
 Start test 134?[0m
-[0, 1, 3]
-[2]
-false
-false
 ?[1;31m
 Start test 135?[0m
-[0, 1, 3]
-[3]
-false
-false
 ?[1;31m
 Start test 136?[0m
-[0, 1, 3]
-[0, 1]
-false
-false
 ?[1;31m
 Start test 137?[0m
-[0, 1, 3]
-[0, 2]
-false
-false
 ?[1;31m
 Start test 138?[0m
-[0, 1, 3]
-[0, 3]
-false
-false
 ?[1;31m
 Start test 139?[0m
-[0, 1, 3]
-[1, 2]
-false
-false
 ?[1;31m
 Start test 140?[0m
-[0, 1, 3]
-[1, 3]
-false
-false
 ?[1;31m
 Start test 141?[0m
-[0, 1, 3]
-[2, 3]
-false
-false
 ?[1;31m
 Start test 142?[0m
-[0, 1, 3]
-[0, 1, 2]
-false
-false
 ?[1;31m
 Start test 143?[0m
-[0, 1, 3]
-[0, 1, 3]
-false
-true
 ?[1;31m
 Start test 144?[0m
-[0, 1, 3]
-[1, 2, 3]
-false
-false
 ?[1;31m
 Start test 145?[0m
-[0, 1, 3]
-[0, 1, 2, 3]
-false
-false
 ?[1;31m
 Start test 146?[0m
 ?[1;31m
 Start test 147?[0m
-2020-10-10 19:37:21.588  INFO 2544 --- [       Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-10-10 19:37:21.589  INFO 2544 --- [       Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2020-10-10 19:37:21.590  INFO 2544 --- [       Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
-2020-10-10 19:37:21.622  INFO 2544 --- [       Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+?[1;31m
+Start test 148?[0m
+?[1;31m
+Start test 149?[0m
+?[1;31m
+Start test 150?[0m
+?[1;31m
+Start test 151?[0m
+?[1;31m
+Start test 152?[0m
+?[1;31m
+Start test 153?[0m
+?[1;31m
+Start test 154?[0m
+?[1;31m
+Start test 155?[0m
+2020-10-11 22:24:46.164  INFO 5088 --- [       Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-11 22:24:46.165  INFO 5088 --- [       Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-11 22:24:46.167  INFO 5088 --- [       Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-10-11 22:24:46.275  INFO 5088 --- [       Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -753,70 +417,37 @@ Start test 147?[0m
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.2.RELEASE)
 
-2020-10-10 19:37:21.715  INFO 2544 --- [    Test worker] engine.WebQuizEngine                     : Starting WebQuizEngine on DESKTOP-RLVR7GP with PID 2544 (started by Rachid-pc in C:\Users\Rachid-pc\IdeaProjects\Web Quiz Engine\Web Quiz Engine\task)
-2020-10-10 19:37:21.716  INFO 2544 --- [    Test worker] engine.WebQuizEngine                     : No active profile set, falling back to default profiles: default
-2020-10-10 19:37:21.797  INFO 2544 --- [       Thread-9] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2020-10-10 19:37:21.801  INFO 2544 --- [       Thread-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2020-10-10 19:37:22.054  INFO 2544 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2020-10-10 19:37:22.071  INFO 2544 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 2 JPA repository interfaces.
-2020-10-10 19:37:22.133  INFO 2544 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-10-10 19:37:22.166  WARN 2544 --- [    Test worker] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
-2020-10-10 19:37:22.172  INFO 2544 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
-2020-10-10 19:37:22.173  INFO 2544 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-10-10 19:37:22.173  INFO 2544 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
-2020-10-10 19:37:22.207  INFO 2544 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-10-10 19:37:22.207  INFO 2544 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 488 ms
-2020-10-10 19:37:22.250  INFO 2544 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
-2020-10-10 19:37:22.261  INFO 2544 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
-2020-10-10 19:37:22.261  INFO 2544 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../quizdb'
-2020-10-10 19:37:22.350  INFO 2544 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-10-10 19:37:22.359  INFO 2544 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2020-10-10 19:37:22.454  INFO 2544 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-10-10 19:37:22.454  INFO 2544 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-10-10 19:37:22.533  WARN 2544 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-10-10 19:37:22.583  INFO 2544 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-10 19:37:22.680  INFO 2544 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1da94689, org.springframework.security.web.context.SecurityContextPersistenceFilter@78a423f5, org.springframework.security.web.header.HeaderWriterFilter@2d2a4e9, org.springframework.security.web.authentication.logout.LogoutFilter@68a30969, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@73e05124, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d1fcd0b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@262332fe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@514afb4d, org.springframework.security.web.access.ExceptionTranslationFilter@771f951b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@28f1c634]
-2020-10-10 19:37:22.696  INFO 2544 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2020-10-10 19:37:22.714  INFO 2544 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
-2020-10-10 19:37:22.714  INFO 2544 --- [    Test worker] engine.WebQuizEngine                     : Started WebQuizEngine in 1.024 seconds (JVM running for 24.228)
-?[1;31m
-Start test 148?[0m
-2020-10-10 19:37:22.720  INFO 2544 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-10-10 19:37:22.720  INFO 2544 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-10-10 19:37:22.723  INFO 2544 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-?[1;31m
-Start test 149?[0m
-[]
-[]
-false
-true
-?[1;31m
-Start test 150?[0m
-[]
-[0]
-false
-false
-?[1;31m
-Start test 151?[0m
-[0, 1, 3]
-[0, 1, 2]
-false
-false
-?[1;31m
-Start test 152?[0m
-[0, 1, 3]
-[0, 1, 3]
-false
-true
-?[1;31m
-Start test 153?[0m
-?[1;31m
-Start test 154?[0m
-404 NOT_FOUND
-?[1;31m
-Start test 155?[0m
+2020-10-11 22:24:46.392  INFO 5088 --- [    Test worker] engine.WebQuizEngine                     : Starting WebQuizEngine on DESKTOP-RLVR7GP with PID 5088 (started by Rachid-pc in C:\Users\Rachid-pc\IdeaProjects\Web Quiz Engine\Web Quiz Engine\task)
+2020-10-11 22:24:46.393  INFO 5088 --- [    Test worker] engine.WebQuizEngine                     : No active profile set, falling back to default profiles: default
+2020-10-11 22:24:46.433  INFO 5088 --- [       Thread-9] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-11 22:24:46.438  INFO 5088 --- [       Thread-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-10-11 22:24:46.699  INFO 5088 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-10-11 22:24:46.717  INFO 5088 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 3 JPA repository interfaces.
+2020-10-11 22:24:46.780  INFO 5088 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-11 22:24:46.810  WARN 5088 --- [    Test worker] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-10-11 22:24:46.817  INFO 5088 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2020-10-11 22:24:46.817  INFO 5088 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-11 22:24:46.818  INFO 5088 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-10-11 22:24:46.861  INFO 5088 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-11 22:24:46.861  INFO 5088 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 466 ms
+2020-10-11 22:24:46.906  INFO 5088 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-10-11 22:24:46.916  INFO 5088 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-10-11 22:24:46.917  INFO 5088 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../quizdb'
+2020-10-11 22:24:47.016  INFO 5088 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-11 22:24:47.028  INFO 5088 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-10-11 22:24:47.114  INFO 5088 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-11 22:24:47.114  INFO 5088 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-11 22:24:47.146  WARN 5088 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-11 22:24:47.238  INFO 5088 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e5ed559, org.springframework.security.web.context.SecurityContextPersistenceFilter@28050c76, org.springframework.security.web.header.HeaderWriterFilter@4b7c16eb, org.springframework.security.web.authentication.logout.LogoutFilter@cfa9881, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@262f294, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64bd4577, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4f5ddc45, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2bd29607, org.springframework.security.web.session.SessionManagementFilter@6ba514f2, org.springframework.security.web.access.ExceptionTranslationFilter@63f5f039, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@46646b0c]
+2020-10-11 22:24:47.289  INFO 5088 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-11 22:24:47.378  INFO 5088 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-10-11 22:24:47.396  INFO 5088 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+2020-10-11 22:24:47.397  INFO 5088 --- [    Test worker] engine.WebQuizEngine                     : Started WebQuizEngine in 1.028 seconds (JVM running for 24.905)
 ?[1;31m
 Start test 156?[0m
+2020-10-11 22:24:47.404  INFO 5088 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-11 22:24:47.404  INFO 5088 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-11 22:24:47.407  INFO 5088 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
 ?[1;31m
 Start test 157?[0m
 ?[1;31m
@@ -829,10 +460,8 @@ Start test 160?[0m
 Start test 161?[0m
 ?[1;31m
 Start test 162?[0m
-404 NOT_FOUND
 ?[1;31m
 Start test 163?[0m
-404 NOT_FOUND
 ?[1;31m
 Start test 164?[0m
 ?[1;31m
@@ -845,10 +474,102 @@ Start test 167?[0m
 Start test 168?[0m
 ?[1;31m
 Start test 169?[0m
-2020-10-10 19:37:25.131  INFO 2544 --- [      Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-10-10 19:37:25.132  INFO 2544 --- [      Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2020-10-10 19:37:25.133  INFO 2544 --- [      Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
-2020-10-10 19:37:25.230  INFO 2544 --- [      Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+?[1;31m
+Start test 170?[0m
+?[1;31m
+Start test 171?[0m
+?[1;31m
+Start test 172?[0m
+?[1;31m
+Start test 173?[0m
+?[1;31m
+Start test 174?[0m
+?[1;31m
+Start test 175?[0m
+?[1;31m
+Start test 176?[0m
+?[1;31m
+Start test 177?[0m
+?[1;31m
+Start test 178?[0m
+?[1;31m
+Start test 179?[0m
+?[1;31m
+Start test 180?[0m
+?[1;31m
+Start test 181?[0m
+?[1;31m
+Start test 182?[0m
+?[1;31m
+Start test 183?[0m
+?[1;31m
+Start test 184?[0m
+?[1;31m
+Start test 185?[0m
+?[1;31m
+Start test 186?[0m
+?[1;31m
+Start test 187?[0m
+?[1;31m
+Start test 188?[0m
+?[1;31m
+Start test 189?[0m
+?[1;31m
+Start test 190?[0m
+?[1;31m
+Start test 191?[0m
+?[1;31m
+Start test 192?[0m
+?[1;31m
+Start test 193?[0m
+?[1;31m
+Start test 194?[0m
+?[1;31m
+Start test 195?[0m
+?[1;31m
+Start test 196?[0m
+?[1;31m
+Start test 197?[0m
+?[1;31m
+Start test 198?[0m
+?[1;31m
+Start test 199?[0m
+?[1;31m
+Start test 200?[0m
+?[1;31m
+Start test 201?[0m
+?[1;31m
+Start test 202?[0m
+?[1;31m
+Start test 203?[0m
+?[1;31m
+Start test 204?[0m
+?[1;31m
+Start test 205?[0m
+?[1;31m
+Start test 206?[0m
+?[1;31m
+Start test 207?[0m
+?[1;31m
+Start test 208?[0m
+?[1;31m
+Start test 209?[0m
+?[1;31m
+Start test 210?[0m
+?[1;31m
+Start test 211?[0m
+?[1;31m
+Start test 212?[0m
+?[1;31m
+Start test 213?[0m
+?[1;31m
+Start test 214?[0m
+?[1;31m
+Start test 215?[0m
+2020-10-11 22:24:52.787  INFO 5088 --- [      Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-11 22:24:52.788  INFO 5088 --- [      Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-11 22:24:52.789  INFO 5088 --- [      Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2020-10-11 22:24:52.883  INFO 5088 --- [      Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -858,45 +579,73 @@ Start test 169?[0m
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.2.RELEASE)
 
-2020-10-10 19:37:25.287  INFO 2544 --- [    Test worker] engine.WebQuizEngine                     : Starting WebQuizEngine on DESKTOP-RLVR7GP with PID 2544 (started by Rachid-pc in C:\Users\Rachid-pc\IdeaProjects\Web Quiz Engine\Web Quiz Engine\task)
-2020-10-10 19:37:25.288  INFO 2544 --- [    Test worker] engine.WebQuizEngine                     : No active profile set, falling back to default profiles: default
-2020-10-10 19:37:25.472  INFO 2544 --- [      Thread-12] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2020-10-10 19:37:25.476  INFO 2544 --- [      Thread-12] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2020-10-10 19:37:25.692  INFO 2544 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2020-10-10 19:37:25.713  INFO 2544 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21ms. Found 2 JPA repository interfaces.
-2020-10-10 19:37:25.794  INFO 2544 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-10-10 19:37:25.831  WARN 2544 --- [    Test worker] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
-2020-10-10 19:37:25.837  INFO 2544 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
-2020-10-10 19:37:25.838  INFO 2544 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-10-10 19:37:25.839  INFO 2544 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
-2020-10-10 19:37:25.871  INFO 2544 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-10-10 19:37:25.871  INFO 2544 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 579 ms
-2020-10-10 19:37:25.911  INFO 2544 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
-2020-10-10 19:37:25.921  INFO 2544 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
-2020-10-10 19:37:25.921  INFO 2544 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../quizdb'
-2020-10-10 19:37:26.004  INFO 2544 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-10-10 19:37:26.011  INFO 2544 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2020-10-10 19:37:26.093  INFO 2544 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-10-10 19:37:26.094  INFO 2544 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-10-10 19:37:26.164  WARN 2544 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-10-10 19:37:26.220  INFO 2544 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-10-10 19:37:26.360  INFO 2544 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@610afd0f, org.springframework.security.web.context.SecurityContextPersistenceFilter@30e94ea7, org.springframework.security.web.header.HeaderWriterFilter@76994ccc, org.springframework.security.web.authentication.logout.LogoutFilter@27d33f54, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@a0e10cc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4791ba7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@617611ed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5d7498b4, org.springframework.security.web.access.ExceptionTranslationFilter@1bafd8b5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@62e15fba]
-2020-10-10 19:37:26.380  INFO 2544 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-2020-10-10 19:37:26.400  INFO 2544 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
-2020-10-10 19:37:26.401  INFO 2544 --- [    Test worker] engine.WebQuizEngine                     : Started WebQuizEngine in 1.164 seconds (JVM running for 27.915)
+2020-10-11 22:24:52.913  INFO 5088 --- [    Test worker] engine.WebQuizEngine                     : Starting WebQuizEngine on DESKTOP-RLVR7GP with PID 5088 (started by Rachid-pc in C:\Users\Rachid-pc\IdeaProjects\Web Quiz Engine\Web Quiz Engine\task)
+2020-10-11 22:24:52.913  INFO 5088 --- [    Test worker] engine.WebQuizEngine                     : No active profile set, falling back to default profiles: default
+2020-10-11 22:24:53.084  INFO 5088 --- [      Thread-12] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-11 22:24:53.089  INFO 5088 --- [      Thread-12] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-10-11 22:24:53.222  INFO 5088 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-10-11 22:24:53.240  INFO 5088 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 3 JPA repository interfaces.
+2020-10-11 22:24:53.292  INFO 5088 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-11 22:24:53.321  WARN 5088 --- [    Test worker] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-10-11 22:24:53.327  INFO 5088 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2020-10-11 22:24:53.327  INFO 5088 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-11 22:24:53.327  INFO 5088 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-10-11 22:24:53.370  INFO 5088 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-11 22:24:53.370  INFO 5088 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 455 ms
+2020-10-11 22:24:53.408  INFO 5088 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2020-10-11 22:24:53.417  INFO 5088 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2020-10-11 22:24:53.417  INFO 5088 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:../quizdb'
+2020-10-11 22:24:53.492  INFO 5088 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-11 22:24:53.500  INFO 5088 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-10-11 22:24:53.588  INFO 5088 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-11 22:24:53.588  INFO 5088 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-11 22:24:53.615  WARN 5088 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-11 22:24:53.689  INFO 5088 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ce3f1a5, org.springframework.security.web.context.SecurityContextPersistenceFilter@6c513fe2, org.springframework.security.web.header.HeaderWriterFilter@b288150, org.springframework.security.web.authentication.logout.LogoutFilter@2bb2d5f7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@75e3ce6f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5940e9ff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@162dc186, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c021ae6, org.springframework.security.web.session.SessionManagementFilter@351da224, org.springframework.security.web.access.ExceptionTranslationFilter@48dfbf68, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@291b71e]
+2020-10-11 22:24:53.733  INFO 5088 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-11 22:24:53.816  INFO 5088 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-10-11 22:24:53.837  INFO 5088 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+2020-10-11 22:24:53.837  INFO 5088 --- [    Test worker] engine.WebQuizEngine                     : Started WebQuizEngine in 0.948 seconds (JVM running for 31.346)
 ?[1;31m
-Start test 170?[0m
-2020-10-10 19:37:26.408  INFO 2544 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-10-10 19:37:26.408  INFO 2544 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-10-10 19:37:26.412  INFO 2544 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+Start test 216?[0m
+2020-10-11 22:24:53.844  INFO 5088 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-11 22:24:53.844  INFO 5088 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-11 22:24:53.847  INFO 5088 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
 ?[1;31m
-Start test 171?[0m
+Start test 217?[0m
 ?[1;31m
-Start test 172?[0m
+Start test 218?[0m
 ?[1;31m
-Start test 173?[0m
+Start test 219?[0m
 ?[1;31m
-Start test 174?[0m
+Start test 220?[0m
+?[1;31m
+Start test 221?[0m
+?[1;31m
+Start test 222?[0m
+?[1;31m
+Start test 223?[0m
+?[1;31m
+Start test 224?[0m
+?[1;31m
+Start test 225?[0m
+?[1;31m
+Start test 226?[0m
+?[1;31m
+Start test 227?[0m
+?[1;31m
+Start test 228?[0m
+?[1;31m
+Start test 229?[0m
+?[1;31m
+Start test 230?[0m
+?[1;31m
+Start test 231?[0m
+?[1;31m
+Start test 232?[0m
+?[1;31m
+Start test 233?[0m
+?[1;31m
+Start test 234?[0m
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -6,8 +6,9 @@
       <GradleProjectSettings>
         <option name="delegatedBuild" value="false" />
         <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="WRAPPED" />
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../Program Files/gradle-6.6.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -20,27 +21,38 @@
             <option value="$PROJECT_DIR$/Problems/Find the nearest number" />
             <option value="$PROJECT_DIR$/Problems/Floor-space of the room" />
             <option value="$PROJECT_DIR$/Problems/Getting current thread info" />
+            <option value="$PROJECT_DIR$/Problems/Getting distinct strings" />
             <option value="$PROJECT_DIR$/Problems/Getting submaps" />
             <option value="$PROJECT_DIR$/Problems/Groundhogs at a party" />
             <option value="$PROJECT_DIR$/Problems/Healthy sleep" />
+            <option value="$PROJECT_DIR$/Problems/IntBinaryOperation" />
             <option value="$PROJECT_DIR$/Problems/Is between" />
             <option value="$PROJECT_DIR$/Problems/Kidnapper of Ice cream" />
+            <option value="$PROJECT_DIR$/Problems/Max of two integers" />
             <option value="$PROJECT_DIR$/Problems/Mutable geometric shapes" />
             <option value="$PROJECT_DIR$/Problems/Only true or false" />
             <option value="$PROJECT_DIR$/Problems/Overloading methods" />
+            <option value="$PROJECT_DIR$/Problems/Production of all numbers in the range" />
             <option value="$PROJECT_DIR$/Problems/Publication and its subclasses" />
             <option value="$PROJECT_DIR$/Problems/Removing duplicates and sorting" />
             <option value="$PROJECT_DIR$/Problems/Removing elements" />
+            <option value="$PROJECT_DIR$/Problems/Returning from a method" />
+            <option value="$PROJECT_DIR$/Problems/Returning values from an anonymous class" />
             <option value="$PROJECT_DIR$/Problems/Safe converting" />
+            <option value="$PROJECT_DIR$/Problems/Shape hierarchy" />
             <option value="$PROJECT_DIR$/Problems/Sherlock Holmes and the mystery of anagrams" />
             <option value="$PROJECT_DIR$/Problems/Squares list" />
             <option value="$PROJECT_DIR$/Problems/Squares of natural numbers" />
+            <option value="$PROJECT_DIR$/Problems/Squirrels and nuts" />
+            <option value="$PROJECT_DIR$/Problems/String reverser" />
             <option value="$PROJECT_DIR$/Problems/Symmetric difference" />
             <option value="$PROJECT_DIR$/Problems/The largest element of a sequence" />
             <option value="$PROJECT_DIR$/Problems/The sequence" />
             <option value="$PROJECT_DIR$/Problems/The star figure" />
             <option value="$PROJECT_DIR$/Problems/Too many cats" />
             <option value="$PROJECT_DIR$/Problems/Triples" />
+            <option value="$PROJECT_DIR$/Problems/Users and WebSites" />
+            <option value="$PROJECT_DIR$/Problems/calculator" />
             <option value="$PROJECT_DIR$/Web Quiz Engine/task" />
           </set>
         </option>
